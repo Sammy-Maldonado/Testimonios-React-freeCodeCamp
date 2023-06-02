@@ -7,6 +7,7 @@ html,
 body {
   font-size: 18px;
   background-color: #f5f6f7;
+  justify-content: center;
 }
 
 h1 {
@@ -30,6 +31,7 @@ h1 {
 .contenedor-principal {
   min-height: 600px;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
