@@ -9,7 +9,7 @@ function App() {
     {
       nombre: "Shawn Wang",
       pais: "Singapur",
-      imagen: "Shawn",
+      imagen: "shawn",
       cargo: "Ingeniero de software",
       empresa: "Amazon",
       testimonio:
@@ -18,7 +18,7 @@ function App() {
     {
       nombre: "Sara Chima",
       pais: "Nigeria",
-      imagen: "Sarah",
+      imagen: "sarah",
       cargo: "Ingeniero de software",
       empresa: "ChatDesk",
       testimonio:
@@ -27,7 +27,7 @@ function App() {
     {
       nombre: "Emma Bostian",
       pais: "Suecia",
-      imagen: "Emma",
+      imagen: "emma",
       cargo: "Ingeniero de software",
       empresa: "Spotify",
       testimonio:
