@@ -2,11 +2,11 @@
   "name": "proyecto-testimonios",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://Sammy-Maldonado.github.io/Testimonios-React-freeCodeCamp",
+  "homepage": "https://Sammy-Maldonado.github.io/Testimonios-React-freeCodeCamp",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
