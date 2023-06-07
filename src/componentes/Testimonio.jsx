@@ -5,7 +5,9 @@ const Testimonio = (props) => {
   return (
     <div className='contenedor-testimonio'>
       <img className='imagen-testimonio' 
-      src={`..src/imagenes/testimonio-${props.imagen}.png`} 
+      src={`imagenes/testimonio-${props.imagen}.png`
+        
+        /* `../public/imagenes/testimonio-${props.imagen}.png` */} 
       alt={`Foto de ${props.nombre}`} />
       <div className='contenedor-texto-testimonio'>
         <p className='nombre-testimonio'>
@@ -17,5 +19,6 @@ const Testimonio = (props) => {
     </div>
   )
 }
+
 
 export default Testimonio;
